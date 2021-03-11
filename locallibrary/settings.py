@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '61qof387m%2g6@8!n((vg)3=n^@+ef
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://cryptic-temple-98563.herokuapp.com/']
 
 
 # Application definition
